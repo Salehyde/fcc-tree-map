@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  #chart-container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #treemap {
+    width: 960px;
+    height: 600px;
+  }
+  
+  #tooltip {
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  
+  #legend {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    width: 960px;
+    gap: 10px;
+  }
+  
+  .legend-item {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    margin-right: 5px;
+  }
+  
+  .legend-label {
+    margin-right: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .tile-text tspan {
+    font-size: 0.55rem; /* Reduced text size for tiles */
+    letter-spacing: 0.3px; /* Increased letter spacing */
+  }
+  
